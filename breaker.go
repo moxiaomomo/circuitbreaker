@@ -141,7 +141,7 @@ func (c *Circuit) _updateStatus(isSuc bool) {
 			time.AfterFunc(c.TimeWindow, func() {
 				c.updateStatusAsTimeout()
 			})
-			logger.Debug("Closed --> HalfOpen")
+			logger.Debug("Closed --> Open")
 		}
 	case StatusHalfOpen:
 		if isSuc {

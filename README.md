@@ -26,41 +26,41 @@ execAllow := cbs.AllowExec(testcmd)
 $ go test
 [DEBUG] To run test for command: testcmd
 [DEBUG] [spec]total: 1000, allow: 1000
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
-[DEBUG] [spec]total: 1000, allow: 808
+[DEBUG] Closed --> Open
+[DEBUG] [spec]total: 1000, allow: 809
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
-[DEBUG] [spec]total: 1000, allow: 18
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
+[DEBUG] [spec]total: 1000, allow: 24
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] Closed --> HalfOpen
+[DEBUG] Closed --> Open
 [DEBUG] Open --> HalfOpen
 [DEBUG] HalfOpen --> Closed
-[DEBUG] [rand]total: 1000, allow: 513
+[DEBUG] [rand]total: 1000, allow: 517
 PASS
-ok      github.com/moxiaomomo/circuitbreaker    24.613s
+ok      github.com/moxiaomomo/circuitbreaker    24.737s
 ```
