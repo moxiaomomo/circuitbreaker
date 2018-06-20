@@ -1,5 +1,8 @@
 # circuitbreaker
 
+[![Build Status](https://travis-ci.org/moxiaomomo/circuitbreaker.svg?branch=master)](https://travis-ci.org/moxiaomomo/circuitbreaker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/moxiaomomo/circuitbreaker)](https://goreportcard.com/report/github.com/moxiaomomo/circuitbreaker)
+
 This is a circuitbreaker module which is easy to use when you build your microservice.
 
 ## How to use it
